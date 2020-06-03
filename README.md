@@ -19,7 +19,7 @@ DockerHub:https://hub.docker.com/r/superng6/ariang
 | arm64        | latest         |
 | armhf        | latest         |
 
-## How to run darkhttpd
+## How to run Docker Aria2 WebUI AriaNg
 --------------------
 
     docker run --rm -it  -p 80:80/tcp superng6/ariang:latest
