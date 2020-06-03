@@ -9,7 +9,7 @@ DockerHub:https://hub.docker.com/r/superng6/ariang
 
 # Version
 
-    2018-12-10 darkhttpd-1.12 AriaNg-1.1.6-AllInOne
+    2018-12-10 darkhttpd-1.12 | AriaNg-1.1.6-AllInOne
 
 # Architecture
 
