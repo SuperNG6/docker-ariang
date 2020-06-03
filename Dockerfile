@@ -6,7 +6,8 @@ RUN apt-get -y update \
 && apt-get -y install build-essential make curl wget unzip git \
 && wget -P /tmp https://github.com/mayswind/AriaNg/releases/download/${ARIANG_VER}/AriaNg-${ARIANG_VER}-AllInOne.zip \
 && unzip /tmp/AriaNg-${ARIANG_VER}-AllInOne.zip -d /tmp \
-&& git clone https://github.com/iori-yja/tiny-docker-httpd.git /tmp \
+&& cd /tmp \
+&& git clone https://github.com/iori-yja/tiny-docker-httpd.git \
 && cd /tmp/tiny-docker-httpd \
 && make
 
