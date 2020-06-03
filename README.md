@@ -3,7 +3,7 @@
 GitHub:https://github.com/SuperNG6/docker-ariang  
 DockerHub:https://hub.docker.com/r/superng6/ariang  
 
-# Ultra tiny docker image that serves file (less than 1MB)
+# Ultra tiny docker image that serves file (less than 600K)
 
     docker pull superng6/ariang
 
