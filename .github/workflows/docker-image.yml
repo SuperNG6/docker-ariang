@@ -1,15 +1,13 @@
 name: Build Image
 
 on:
-  push:
-    branches:
-      - 'master'
-    paths-ignore:
-      - "README.md"
+ watch:
+    types: started
 
 jobs:
   buildx:
     runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
     steps:
       - name: Checkout
         uses: actions/checkout@v1
