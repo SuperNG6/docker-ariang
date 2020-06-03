@@ -25,4 +25,4 @@ DockerHub:https://hub.docker.com/r/superng6/ariang
     docker run --rm -it  -p 80:80/tcp superng6/ariang:latest
 
 # preview
-![uDYCaI](https://gitee.com/sleele/pic/raw/master/uPic/2020-06-03/uDYCaI.png)
+![XzPziu](https://gitee.com/sleele/pic/raw/master/uPic/2020-06-03/XzPziu.png)
