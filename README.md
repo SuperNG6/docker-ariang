@@ -2,6 +2,7 @@
 
 GitHub:https://github.com/SuperNG6/docker-ariang  
 DockerHub:https://hub.docker.com/r/superng6/ariang  
+blog:blog:https://sleele.com/2020/06/03/tiny-docker-ariang/  
 
 # Ultra tiny docker image that serves file (less than 600K)
 
