@@ -1,6 +1,6 @@
 FROM debian as builder
 # ARIANG_VER
-ARG ARIANG_VER=1.1.6
+ARG ARIANG_VER=1.1.7
 # download AriaNg AllInOne
 RUN apt-get -y update \
 && apt-get -y install wget unzip \
