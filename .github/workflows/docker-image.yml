@@ -42,6 +42,11 @@ jobs:
              echo "::set-output name=status::success"
           fi
 
+      - name: Update ReleaseTag
+        if: steps.set-version.outputs.status == 'success'
+        run: |
+          echo ${{ steps.set-version.outputs.version }} > ./ReleaseTag
+
       # Build and push
       - name: Build dockerfile
         if: steps.set-version.outputs.status == 'success'
