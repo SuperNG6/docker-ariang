@@ -47,6 +47,14 @@ jobs:
         run: |
           echo ${{ steps.set-version.outputs.version }} > ./ReleaseTag
 
+      - name: Push
+        if: steps.set-version.outputs.status == 'success'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update ReleaseTag ${{ steps.set-version.outputs.version }}"
+          git push -v --progress
+
       # Build and push
       - name: Build dockerfile
         if: steps.set-version.outputs.status == 'success'
