@@ -10,7 +10,7 @@ blog:blog:https://sleele.com/2020/06/03/tiny-docker-ariang/
 
 # Version
 
-    2018-12-10 darkhttpd-1.12 | AriaNg-1.1.7-AllInOne
+    2018-12-10 darkhttpd-1.12 | AriaNg-1.2.0-AllInOne
 
 # Architecture
 
