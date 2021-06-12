@@ -23,7 +23,7 @@ blog:blog:https://sleele.com/2020/06/03/tiny-docker-ariang/
 ## How to run Docker Aria2 WebUI AriaNg
 --------------------
 
-    docker run --rm -it  -p 80:80/tcp superng6/ariang:latest
+    docker run -d -p 80:80/tcp superng6/ariang:latest
 
 # preview
 ![XzPziu](https://gitee.com/sleele/pic/raw/master/uPic/2020-06-03/XzPziu.png)
