@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.13 as builder
+FROM lsiobase/alpine:3.17 as builder
 
 RUN apk add --no-cache curl unzip \
 && ARIANG_VER=$(wget -qO- https://api.github.com/repos/mayswind/AriaNg/tags | grep 'name' | cut -d\" -f4 | head -1 ) \
